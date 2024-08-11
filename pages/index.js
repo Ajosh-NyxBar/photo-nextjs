@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Circle from "@/components/Circle";
 import { motion } from "framer-motion";
 import Stack from "@/components/Stack";
+import { fade } from "@/variants";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -16,26 +17,37 @@ export default function Home() {
             <Circle />
           </div>
 
-          <motion.div>
+          <motion.div
+            variants={fade("down", 0.3)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className="mb-3 mx-auto justify-center"
+          >
             <Stack />
           </motion.div>
 
           {/* Title */}
           <motion.h1
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 2, duration: 0.4, ease: "easeInOut" }}
+            variants={fade("down", 0.4)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className="h1"
           >
             <span className="text-white">Hello, I'm</span>
-            <span className="text-accent">John Doe</span>
+            <span className="text-accent"> Ajosh</span>
           </motion.h1>
 
           <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 2, duration: 0.4, ease: "easeInOut" }}
+            variants={fade("down", 0.5)}
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            className="justify-center text-white mx-auto max-w-sm xl:max-w-xl"
           >
-            A full stack developer based in London, UK.
+            Welome to Our World endless imagination and innovation, Togther we
+            can create a better future.
           </motion.p>
         </div>
       </div>
