@@ -16,7 +16,7 @@ const posts = [
 const About = () => {
   return (
     <div className="h-full py-32 text-center xl:text-left">
-      {/* INner */}
+      {/* INner  */}
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         {/* :EFt */}
         <div className="flex flex-1 flex-col justify-center">
