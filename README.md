@@ -1,8 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Next.js Project
+
+Welcome to my Next.js project! This project is bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and leverages various modern web technologies to create a dynamic and responsive web application.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the development server, run one of the following commands:
 
 ```bash
 npm run dev
@@ -14,15 +16,28 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Project Structure
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Here's an overview of the project's structure:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Pages
+
+- **Home Page**: The main entry point of the application is located in `pages/index.js`.
+- **About Page**: Learn more about us in `pages/about/index.js`.
+- **Contact Page**: Get in touch with us via `pages/contact/index.js`.
+- **Services Page**: Discover our services in `pages/services/index.js`.
+- **Work Page**: Check out our work in `pages/work/index.js`.
+
+### Components
+
+- **Layout**: The main layout component is in `components/Layout.js`.
+- **Header**: The header component is in `components/Header.js`.
+- **Nav**: The navigation component is in `components/Nav.js`.
+- **Social**: Social media links are managed in `components/Social.js`.
 
 ## Learn More
 
