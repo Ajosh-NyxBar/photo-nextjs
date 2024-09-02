@@ -1,4 +1,4 @@
-# My Next.js Project
+# Here My Next.js Project
 
 Welcome to my Next.js project! This project is bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and leverages various modern web technologies to create a dynamic and responsive web application.
 
