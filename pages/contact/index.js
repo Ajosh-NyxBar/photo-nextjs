@@ -36,6 +36,7 @@ const index = () => {
             <textarea
               className="textarea "
               placeholder="Your Message"
+              // sasaa
             ></textarea>
             <button
               className="btn rounded-full bg-[#FF9800]  border border-white/20 max-w-[175px] px-8
